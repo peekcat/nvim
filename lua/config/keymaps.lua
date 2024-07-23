@@ -1,3 +1,5 @@
+-- keymaps.lua在Lazy.nvim启动之前自动加载
+-- 默认设置的keymaps: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 local keymap = vim.keymap
 
 -- ---------- 插入模式 ---------- ---

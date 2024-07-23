@@ -1,7 +1,9 @@
+-- options.lua在Lazy.nvim启动之前自动加载
+-- 默认设置的options: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 local opt = vim.opt
 
 -- 行号
-opt.relativenumber = true
+opt.relativenumber = false
 opt.number = true
 
 -- 缩进
@@ -36,3 +38,4 @@ opt.scrolloff = 5
 -- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
+opt.guifont = { "CaskaydiaCove Nerd Font", "OPlusSans 3.0" }
